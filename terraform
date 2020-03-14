@@ -1,1 +1,17 @@
 
+16
+amazon-linux-extras install epel -y
+git
+yum install -y git tree vim
+wget https://releases.hashicorp.com/terraform/0.12.23/terraform_0.12.23_linux_amd64.zip
+
+docker images
+systemctl status docker
+systemctl enable docker
+
+git clone https://github.com/tektutor/terraform-hyd-march-2020.git
+
+ami-0ce21b51cb31a48b8
+
+--This wil create a new public and private key
+ssh-keygen -f tektutor-key
